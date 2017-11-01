@@ -2,4 +2,4 @@
 
 @[RUN]({stubs:[Answer.js, test.js, test.html], command: 'bash /project/target/run.sh'})
 
-@[VALIDATE]({stubs:[Answer.js, test.js, test.html], command: 'bash -c \'/project/target/validate.sh "should add a new unchecked item at the end of the list"\''})
+@[VALIDATE]({stubs:[Answer.js, test.js, test.html], command: '/project/target/validate.sh "should add a new unchecked item at the end of the list"'})
